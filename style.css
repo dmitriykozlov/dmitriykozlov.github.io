@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background: #111;
+  color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
+}
+
+.container {
+  max-width: 700px;
+  width: 100%;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.tagline {
+  color: #aaa;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.tombstone {
+  background: #222;
+  border: 2px solid #444;
+  padding: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.tombstone h2 {
+  color: #f5f5f5;
+  margin-bottom: 0.3rem;
+}
+
+.tombstone p {
+  color: #ccc;
+  font-size: 0.95rem;
+}
+
+.footer {
+  color: #777;
+  margin-top: 2rem;
+  font-style: italic;
+}
+
+a {
+  text-decoration: none;
+}
